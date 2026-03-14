@@ -146,7 +146,7 @@ enum HYPNUCDEFS { kEnabled,
                   kDsigns,
                   kUseV0for };
 static const std::vector<std::string> hypNucDefsLb{"Enabled", "PDGCode", "d1", "d2", "d3", "d4", "daughterSigns", "useV0for"};
-static const std::string hypNucDefs[nHyperNuclei][nHypNucDefs]{
+const std::string hypNucDefs[nHyperNuclei][nHypNucDefs]{
   {"0", "3122", "proton", "pion", "none", "none", "+-", ""},
   {"0", "1010010030", "helion", "pion", "none", "none", "+-", ""},
   {"0", "1010010030", "deuteron", "proton", "pion", "none", "++-", ""},
